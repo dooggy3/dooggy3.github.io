@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class = "topBorder">
+
+
+    </div>
+    <img src = "assets/top_image_large.png" class = "backgroundSpace">
+    <div class = "textContainer">
+        <p>
+            Lorem Ipsum 
+        </p>
+    </div>
+
+    <div class = introductionText>
+        <br>    
+        <br>
+        <h2>Who we are.</h2>
+        <br>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <br>
+        <h2>Why should shop with us.</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          </p>
+        <br>
+        <br>
+    </div>
+    <img src = "assets/video_placeholder.png" class = "video">
+  
+    <h2 class = "techText">Custom Tech to your Doorstep</h2>
+    <br>
+    <br>
+    <br>
+    <div class = "gridTech">
+        <div class = "tech1Box">
+            <img src = "assets/custom_tech_1_image_medium.png">
+            <br><br>
+            <p>Customized - Androids</p>
+            <br>
+            <p>Proin semper nibh nisl, vel fringilla dolor efficitur a. Donec et leo eleifend, ultricies nunc vel, labartis eros.</p>
+            <br>
+            <a class = "buyButton">BUY DROIDS</a>
+        
+        </div>
+        <div class = "tech2Box">
+            <img src = "assets/custom_tech_2_image_medium.png">
+            <br><br>
+            <p>Customized - VR Experiences</p>
+            <br>
+            <p>Cras ullamcorper eget lorem elementum hendrerit. Ut velit lectus, pretium vitae sem ac, imperdiet efficitur neque.</p>
+            <br>
+            <a class = "buyButton">BUY VR</a>
+        </div>
+        <div class = "tech3Box">
+            <img src = "assets/custom_tech_3_image_medium.png">
+            <br><br>
+            <p>Customized - Laptops</p>
+            <br>
+            <p>Integer sapien augue, posuere sit amet dolor at, lobortis aliquam purus. Donec eu lacus vel eros pretium pulvinar.</p>
+            <br>
+            <a class = "buyButton">BUY LAPTOPS</a>
+
+        </div>
+    </div>
+    
+    
+    <div class = "reasonsText">
+        <br>
+        <br>
+        <br>
+        <div class = "titleText">
+            <img src = "assets/flourish_logo.png">
+            <h1>Top 6 Reasons to Shop here!</h1>
+        </div>
+        <div class = "gridReason">
+            <div class = "leftReasonsText">
+                <p>1. We investigate the market</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <br>
+                <p>2. Our Business Plan has no Problems</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <br>
+                <p>3. We Finance a LOT</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
+            </div>
+            <div class = "rightReasonsText">
+                <p>4. Good Location</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <br>
+                <p>5. We're Flexible</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <br>
+                <p>6. We don't expand too fast</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "explainText">   
+        <div class = "leftExplainText">
+            <ul>
+                <h2>All abour our Tech</h2>
+
+                <li>Aenean cursus nulla eget diam molestie, ac solliciitudin orci mattis.</li>
+                <li>Etiam convallis elementusm leo, sit amet scelerisque tellus pulvinar eget.</li>
+                <li>usce convallis venenatis neque, ut egestas purus tempor at.</li>
+                <li>Proin ac feugiat quam.</li>
+                <li>Fusce faucibus tempus ullamcorper.</li>
+            </ul>
+        </div>
+        <div class = "rightExplainText">
+            <h2>Combining customization with personalization</h2>
+            <p>CUSTOMIZATION</p>
+            <ul>
+                <li>Aenean cursus nulla eget diam molestie, ac solliciitudin orci mattis.</li>
+                <li>Etiam convallis elementusm leo, sit amet scelerisque tellus pulvinar eget.</li>
+                <li>usce convallis venenatis neque, ut egestas purus tempor at.</li>
+            </ul>
+            <p>PERSONALIZATION</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus leo quis risus tempor,
+                    hendrerit molestie felis dictum.
+                </li>
+                <li>Proin nunc elit, congue vehicula varius ac, solliciitudin ut sem.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

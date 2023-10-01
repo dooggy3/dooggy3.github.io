@@ -1,0 +1,334 @@
+/* Course: SENG 513 */
+/* Date: SEPT 10, 2023 */
+/* Assignment 1 */
+/* Name: Sean Choi */
+/* UCID: 30121940 */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+*{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px){
+.topBorder {
+    background-color:  #25274D;
+    color: white;
+    width: 100%;
+    height: 70px;
+  }
+
+
+.companyName{
+    font-weight: 200;
+    font-size:40px;
+    letter-spacing: -0.1em;
+    margin-left:130px;
+    display: inline-block;
+
+}
+.motto{
+    font-style: italic;
+    font-size:18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-left:40px;
+    display: inline-block;
+    position:absolute;
+    top:20px;
+}
+.shopButton{
+    font-weight:400;
+    height:100%;
+    line-height:42px;
+    text-align:center;
+    display:block;
+    width:140px;
+    padding:12px;
+    color:white;
+    background-color: #2E9CCA;
+    cursor:pointer;
+    font-size:14px;
+    float:right;
+    
+}
+.backgroundSpace{
+    width: 100%;
+}
+.textContainer{
+    color:white;
+    position:absolute;
+    left: 10%;
+    top:  22%;
+    font-size: 50px;
+    
+}
+
+.introductionText{
+    width:80%;
+    margin-left: 100px;
+}
+
+.video{
+    width: 100%;
+    border:50px solid  #25274D;
+    border-top:90px solid  #25274D;
+    border-bottom: 40px solid  #25274D;
+
+    
+}
+.hidden{
+    visibility: hidden;
+    margin-bottom:-110px;
+}
+
+.techText{
+    margin-top: 60px;
+    text-align:center;
+}
+
+.gridTech{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(0px, 321px)
+    minmax(0px, 321px)
+    minmax(0px, 321px);
+    grid-gap: 90px;
+    width:100%;
+   
+}
+
+.buyButton{
+    text-align:center;
+    display:block;
+    width:135px;
+    padding:12px;
+    color:white;
+    background-color: #2E9CCA;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.reasonsText{
+    height:880px;
+    background-color:  #29648A;
+    color: white;
+    display:block;
+    width: 100%;
+    background-image: url(assets/flourish.png);
+}
+
+.gridReason{
+    margin-top:100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:minmax(0px, 350px)
+    minmax(0px, 350px);
+    grid-gap: 300px;
+    width:100%;
+}
+
+.gridExplainText{
+    margin-top:100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:minmax(0px, 394px)
+    minmax(0px, 394px);
+    grid-gap: 100px;
+    width:100%;
+}
+.leftExplainText h2{
+    margin-bottom: 20px;
+    margin-left:-20px;
+}
+
+.rightExplainText h2 {
+    margin-bottom: 20px;
+    margin-left:-20px;
+}
+.rightExplainText p{
+    margin-bottom:20px;
+    margin-left:-20px;
+}
+ul li{
+    margin-bottom: 15px;
+}
+.shippingText{
+    background-color: #FEF9F7;
+    background-image: url(assets/shipping_icon_medium.png);
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    background-position-y: 150px;
+
+}
+
+.arrowUp{
+    float:right;
+}
+.gridShipping{
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns:minmax(0px, 350px)
+    minmax(0px, 350px);
+    grid-gap: 50px;
+    width:100%;
+    
+}
+.rightShippingText{
+    margin-top:85px;
+}
+}
+
+.contact{
+    background-color: #29648A;
+    color:#FFF;
+    text-align:center;
+    padding: 140px 160px;
+    
+}
+
+.whiteLine{
+    background-color: #FFF;
+    width:100%;
+    height:1px;
+}
+.bottomBorder{
+    background-color: #25274D;
+    color:#FFF;
+    text-align:center;
+}
+@media screen and (max-width: 640px) { 
+   
+    .topBorder{
+        height:120px;
+    }
+    .companyName{
+        position:absolute;
+        margin-left:20px;
+        display:block;
+        top:3%;
+    }
+    .motto{
+        font-size:13px;
+        display:block;
+        margin-left:20px;
+        top:83px;
+    }
+    .shopButton{
+        visibility: hidden;
+    }
+    .hidden{
+        margin-top:10px;
+        visibility:visible;
+        margin-bottom: 30px;
+    }
+    .textContainer{
+        visibility: hidden;
+    }
+    .introductionText{
+        margin-left:20px;
+        width:85%;
+    }
+    .backgroundSpace{
+        content:url(assets/top_image_small.png);
+    }
+    
+    .gridTech{
+        display:block;
+        margin-bottom: 10px;
+        max-width:100%;
+    }
+    
+    .tech1Box{
+        margin-bottom:50px;        
+    }
+    .tech1Box img{
+        width: 100%; 
+        content:url(assets/custom_tech_1_image_large.png); 
+    }
+    .tech2Box{
+        margin-bottom:50px;
+    } 
+    .tech2Box img{
+        width: 100%; 
+        content:url(assets/custom_tech_2_image_large.png);   
+    }
+    .tech3Box{
+        margin-bottom: -50px;
+    }
+    .tech3Box img{
+        width: 100%; 
+        content:url(assets/custom_tech_3_image_large.png);   
+    }
+    .options{
+        margin-left:10px;
+    }
+    .buyButton{
+        margin-left:10px;
+    }
+    .titleText{
+        font-size: 14px;
+        margin-bottom:-60px;
+    }
+    .reasonsText{
+        background-image: none;
+        height:900px;
+    }
+    .gridReason{
+        display:block;
+        margin-left:20px;
+        width:90%;
+    }
+    .rightReasonsText{
+        margin-top:50px;
+    }
+
+    .gridExplainText{
+        display:block;
+        margin-top:40px;
+        width:85%;
+        margin-left:40px;
+    }
+    .leftExplainText{
+        margin-bottom:50px;
+    }
+
+    .shippingText{
+        background-image: url(assets/shipping_icon_small.png);
+        background-position-x: right;
+        background-position-y: 30px;
+        background-size:100px;
+    }
+    .gridShipping{
+        display:block;
+        justify-content: center;
+        margin-bottom:-100px;
+    }
+    .leftShippingText{
+        margin-left:40px;
+        width:80%;
+    }
+    .rightShippingText{
+        margin-top:50px;
+        margin-left:40px;
+        width:80%;
+    }
+    .arrowUp{
+        float:none;
+        position:absolute; 
+        left:45%;
+    }
+
+    .contact{
+       padding: 50px 30px;
+       text-align:left;
+    }
+
+    .contact a{
+        display:inline-block;
+        margin-top:10px;
+    }
+}
