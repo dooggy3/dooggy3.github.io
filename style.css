@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 1280px){
+
 .topBorder {
     background-color:  #25274D;
     color: white;
@@ -180,7 +180,7 @@ ul li{
 .rightShippingText{
     margin-top:85px;
 }
-}
+
 
 .contact{
     background-color: #29648A;
